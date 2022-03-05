@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "baseUrl": "src",
+      "extends": "./tsconfig.paths.json",
+      "paths": {
+        "@components": ["/components"],
+        "@types": ["common/types/index"],
+        "@lib/*": ["src/lib/*"],
+       "@redux/*": ["src/redux/*"],
+       "@config/*": ["src/config/*"],
+       "@styles": ["src/styles/index"],
+       "@assets": ["src/assets/index"],
+       "@api": ["src/api/index"],
+       "@services": ["src/services/index"]
+      },
+      "include": [
+        "src"
+      ]
+    }
+  }
